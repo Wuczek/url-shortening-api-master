@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Frontend Mentor | Shortly URL shortening API Challenge</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/32064aa644.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body onload="loadMapFromLocalStorage()">
+    <main>
+      <nav class="navbar container">
+        <div class="navbar__logo">
+          <img src="/images/logo.svg" alt="logo" loading="eager" />
+        </div>
+        <ul class="navbar__menu container">
+          <div class="navbar__divide">
+            <li class="navbar__link">
+              <a href="" class="navbar__item">Features</a>
+            </li>
+            <li class="navbar__link">
+              <a href="" class="navbar__item">Pricing</a>
+            </li>
+            <li class="navbar__link">
+              <a href="" class="navbar__item">Resources</a>
+            </li>
+            <li class="navbar__link">
+              <hr />
+            </li>
+          </div>
+          <div class="navbar__divide">
+            <li class="navbar__link">
+              <a href="" class="navbar__item">Login</a>
+            </li>
+            <li class="navbar__link">
+              <a href="" class="navbar__item cyan-button">Sign Up</a>
+            </li>
+          </div>
+        </ul>
+        <div class="navbar__hamburger">
+          <i class="fa-solid fa-bars fa-xl hamburger-icon"></i>
+        </div>
+      </nav>
+      <header class="header">
+        <img
+          src="/images/illustration-working.svg"
+          alt="Guy"
+          loading="eager"
+          class="header__img"
+        />
+        <div class="header__introduction container">
+          <h1>More than just shorter links</h1>
+          <p>
+            Build your brand's recognition and get detailed insights on how your
+            links are performing.
+          </p>
+          <button class="start-btn cyan-button">Get Started</button>
+        </div>
+      </header>
+      <section class="shorten-links">
+        <form action="" class="shorten-links__form container">
+          <input
+            id="inputField"
+            type="text"
+            placeholder="Shorten a link here..."
+          />
+          <p class="p-error"></p>
+          <button id="inputButton" class="cyan-button" type="submit">
+            Shorten It!
+          </button>
+        </form>
+        <div class="shorten-links__links container"></div>
+      </section>
+      <section class="statistics">
+        <div class="statistics__hero container">
+          <h2>Advanced Statistics</h2>
+          <p class="text-statistics">
+            Track how your links are performing across the web with our advanced
+            statistics dashboard.
+          </p>
+        </div>
+        <div class="statistics__preview container">
+          <div class="statistics__preview--item">
+            <div class="statistics__preview--item-img">
+              <img
+                src="/images/icon-brand-recognition.svg"
+                alt="logo"
+                loading="lazy"
+              />
+            </div>
+            <div class="statistics__preview--item-text">
+              <h2>Brand Recognition</h2>
+              <p class="text-statistics text-wrap">
+                Boost your brand recognition with each click. Generic links
+                don’t mean a thing. Branded links help instil confidence in your
+                content.
+              </p>
+            </div>
+            <div class="statistics__preview--bar"></div>
+          </div>
+          <div class="statistics__preview--item">
+            <div class="statistics__preview--item-img">
+              <img
+                src="/images/icon-detailed-records.svg"
+                alt="logo"
+                loading="lazy"
+              />
+            </div>
+            <div class="statistics__preview--item-text">
+              <h2>Detailed Records</h2>
+              <p class="text-statistics text-wrap">
+                Gain insights into who is clicking your links. Knowing when and
+                where people engage with your content helps inform better
+                decisions.
+              </p>
+            </div>
+            <div class="statistics__preview--bar"></div>
+          </div>
+          <div class="statistics__preview--item">
+            <div class="statistics__preview--item-img">
+              <img
+                src="/images/icon-fully-customizable.svg"
+                alt="logo"
+                loading="lazy"
+              />
+            </div>
+            <div class="statistics__preview--item-text">
+              <h2>Fully Customizable</h2>
+              <p class="text-statistics text-wrap">
+                Improve brand awareness and content discoverability through
+                customizable links, supercharging audience engagement.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="advertisement">
+        <h2>Boost your links today</h2>
+        <button class="cyan-button">Get Started</button>
+      </section>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__logo">
+            <img src="/images/logo.svg" alt="logo" loading="lazy" />
+          </div>
+          <div class="footer__info">
+            <div class="footer__info--features">
+              <p>Features</p>
+              <a href="">Link Shortening</a>
+              <a href="">Branded Links</a>
+              <a href="">Analytics</a>
+            </div>
+            <div class="footer__info--resources">
+              <p>Resources</p>
+              <a href="">Blog</a>
+              <a href="">Developers</a>
+              <a href="">Support</a>
+            </div>
+            <div class="footer__info--company">
+              <p>Company</p>
+              <a href="">About</a>
+              <a href="">Our Team</a>
+              <a href="">Careers</a>
+              <a href="">Contact</a>
+            </div>
+          </div>
+          <div class="footer__socials">
+            <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-pinterest"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+      </footer>
+    </main>
+    <script src="/js/script.js"></script>
+  </body>
+</html>
