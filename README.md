@@ -4,10 +4,10 @@ This is a solution to the [URL shortening API landing page](https://www.frontend
 
 ## Overview
 
-Used [shrtco.de](shrtco.de) API 
-RWD
-Mobile first layout approach
-Save/Read shortened links from LocalStorage
+- Used [shrtco.de](shrtco.de) API 
+- RWD
+- Mobile first layout approach
+- Save/Read shortened links from LocalStorage
 
 ### Links
 
